@@ -1,0 +1,3 @@
+#!/bin/sh
+SITE=client.kemitchell.com
+exec scp index.html $SITE:/var/www/$SITE/index.html
